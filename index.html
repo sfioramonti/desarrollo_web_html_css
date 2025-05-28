@@ -4,19 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desarrollo Web HTML</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/fonts.css">
 </head>
 <body>
     <h1>Desarrollo Web CSS</h1>
-    <p>
-        El Lorem Ipsum fue concebido como un texto de relleno, formateado de una cierta manera para permitir la presentación de elementos gráficos en documentos, sin necesidad de una copia formal. El uso de Lorem Ipsum permite a los diseñadores reunir los diseños y la forma del contenido antes de que el contenido se haya creado, dando al diseño y al proceso de producción más libertad.
-    </p>
+    <div class="Contenedor_Parrafos">   
+    <p class="Parrafos">
+        Style como tipo de editor de estilo por linea, no es eficiente por muchos motivos como legibilidad.
+        Es mas eficiente crear un style externo al codigo, para manejar dependientemente diseño de la estructuración. Style como tipo de editor de estilo por linea, no es eficiente por muchos motivos como legibilidad.
+        Es mas eficiente crear un style externo al codigo, para manejar dependientemente diseño de la estructuración.
+    </p>  
+    </div>  
     <ol>
-        <li><a href="enlaces/enlaces.html"title="Se dirige a la pagina enlaces">Enlaces</a></li>
-        <li><a href="forms.html">Formularios</a></li>
-        <li>Elemento 3</li> 
+        <li class="ListaA"><a href="enlaces/enlaces.html"title="Se dirige a la pagina enlaces">Enlaces</a></li>
+        <li class="ListaB"><a href="forms.html">Formularios</a></li>
+        <li class="ListaC">Definición de clase</li>
     </ol>
-    <p>Ejemplo de imagen:</p>
-    <img src="recursos/WinXP.jpg" alt="Windows XP" title="Windows XP">
+    <!Windows XP>
+    <div class="Contenedor_Parrafos">   
+        <p class="Subtitulos">Windows XP</p>
+            <p class="Parrafos">Windows XP (Windows eXPerience) es un sistema operativo descontinuado de Microsoft Windows, basado en Windows 2000 y con importantes mejoras en su tiempo. Fue lanzado al mercado el 25 de octubre de 2001. En agosto de 2012, tenía una cuota de mercado de 46,33%, y fue superado por Windows 7 que ya tenía un 46,60% de la cuota de mercado. En diciembre de 2013, tenía una cuota de mercado de 500 millones de ordenadores. Las letras "XP" provienen de la palabra eXPeriencia (eXPerience en inglés). Su nombre clave inicial fue Whistler.<p>
+     </div>                  
+        <div class="Contenedor_Imagen">
+         <img src="recursos/WinXP.jpg" alt="Windows XP" title="Windows XP">
+        </div>  
+    <!Windows Vista>
+    <div class="Contenedor_Parrafos"> 
+        <p class="Subtitulos">Windows Vista</p>
+            <p class="Parrafos">Windows Vista (nombre clave Windows Longhorn) es una versión descontinuada de Microsoft Windows, línea de sistemas operativos desarrollada por Microsoft. Esta versión estaba enfocada a la utilización en equipos de escritorio en hogares y oficinas, equipos portátiles, tabletas y equipos media center.El proceso de desarrollo terminó el 8 de noviembre de 2006 y en los tres meses siguientes fue entregado a los fabricantes de hardware y software, clientes de negocios y canales de distribución. El 30 de enero de 2007 fue su lanzamiento mundial y quedó a disposición para su compra y descarga desde el sitio web de Microsoft Windows.<p>
+    </div>                
+        <div class="Contenedor_Imagen">
+         <img src="recursos/WinXP.jpg" alt="Windows XP" title="Windows XP">
+        </div>  
 
+    <!Primera forma de crear estilos (Por linea)>
+        <!--
+            <p style="color:red;font-size: larger;">
+            -->
+    <!Segunda forma de crear estilos>
+        <!--
+            <style>
+                p
+                {
+                color:red;
+                font-size: larger;
+                
+                }
+                h1
+                {
+                    color:blue
+                }
+
+            </style>
+        -->
 </body>
 </html> 
